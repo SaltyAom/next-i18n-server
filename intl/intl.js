@@ -56,7 +56,7 @@ files(routes, (err, files) => {
               )
             : template
 
-        writeFileSync(file.replace("routes", "pages"), content)
+        writeFileSync(file.replace("routes", "pages"), template)
         writeFileSync(file.replace("routes", `pages/[lang]`), content)
 
         if(!process.argv.includes("build"))
