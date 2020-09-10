@@ -16,7 +16,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         paths: languages.map((language) => ({
             params: { lang: language, test: "hi" }
         })),
-        fallback: true
+        fallback: false
     }
 }
 
