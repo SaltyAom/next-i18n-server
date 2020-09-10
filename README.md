@@ -2,7 +2,7 @@
 Automatically generate language page for Next.js
 
 ## Outline
-[Using to concept the concept of page fallback.](https://github.com/SaltyAom/next-default-lang) But instead of manual created page and consume our sanity. We can simply create normal path and let the script generate the INTL structure.
+[Using to concept of page fallback.](https://github.com/SaltyAom/next-default-lang) But instead of manual created page and consume our sanity. We can simply create normal path and let the script generate the INTL structure.
 
 Due to nextjs use `pages` as router. We've to use another folder name like `routes` to generate `pages` structure.
 
