@@ -79,11 +79,14 @@ files(routes, (err, files) => {
             })
     })
 
-    if(!process.argv.includes("build"))
-        exec("yarn dev", (error, stdout, stderr) => {
+    if(!process.argv.includes("build")) {
+        exec("npx next", (error, stdout, stderr) => {
             if (error) console.log(`error: ${error.message}`)
             if (stderr) console.log(`stderr: ${stderr}`)
 
             console.log(`stdout: ${stdout}`)
         })
+
+        console.log("Dev Server Started")
+    }
 })

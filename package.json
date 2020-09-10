@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "next",
-    "build": "next build && next export",
+    "dev": "node intl/intl.js",
+    "build": "node intl/intl.js build && next build && next export",
     "start": "next start",
     "start:static": "serve -p 8080 out"
   },
